@@ -1,0 +1,223 @@
+/* Основний колір тексту #212121 */
+
+/* Другорядний колір тексту #757575 */
+
+/* Синій в логотипі і акцент #2196F3 */
+
+/* Фон main background: #F5F5F5; */
+
+/* Фон футера #2F303A */
+
+/* Фон хедера, білий в кнопках і в футері лого #FFFFFF */
+
+/* Текст телефону і пошти у футері rgba(255, 255, 255, 0.6) */
+
+:root {
+    --pimery-text-color: #212121;
+    --paragraph-text-color: #757575;
+    --accent-color: #2196F3;
+    --main-color-white: #FFFFFF;
+}
+
+body {
+    color: var(--pimery-text-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Оформлення хедера */
+.logo-color { 
+    color:var(--accent-color);
+}
+
+.logo-header {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.nav-link {
+    color: var(--pimery-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+color: var(--accent-color);
+}
+
+.contact-link {
+    color: var(--paragraph-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}   
+
+.header {
+    background-color: var(--main-color-white);
+}
+
+                                                    /* Оформлення studio-main */
+/* Оформлення hero */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--main-color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-batton {
+    color: var(--main-color-white);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    border-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* Оформлення секції features */
+
+.features-title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-description   {
+    color: var(--paragraph-text-color);
+    line-height: 1.71px;
+}
+
+.section-title  {
+    font-size: 36px;
+    line-height: 1.17;
+}
+/* Оформлення секції work */
+
+/* Оформлення секції team */
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-description   {
+    color: var(--paragraph-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+                                                    /* Оформлення portfolio-main */
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.paragraph-list {
+    color: var(--paragraph-text-color);
+    font-size: 16px;
+    line-height: 1.88; 
+}
+
+.filter-button { 
+    color: var(--pimery-text-color);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    border-style: none;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--main-color-white);
+    background-color: var(--accent-color)
+}
+
+.active {
+    color: var(--main-color-white);
+    background-color: var(--accent-color);
+}
+
+/* Оформлення футера */
+.footer {
+    background-color: #2F303A;
+}
+
+.logo-footer {
+    color: var(--main-color-white);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.address {
+    color: var(--main-color-white);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.e-mail, .tel {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.post-address {
+    text-decoration: none;
+}
+
+.post-address:visited {
+    color: var(--main-color-white);
+}
+
+.e-mail:hover,
+.e-mail:focus,
+.tel:hover,
+.tel:focus {
+color: var(--accent-color);
+}
