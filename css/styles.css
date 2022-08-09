@@ -409,14 +409,18 @@ color: var(--accent-color);
     margin-right: 30px;
 }
 
-.card-image {
-    margin-bottom: 20px;
+
+.card-content {
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }
 
 .portfolio-title {
     margin-bottom: 4px;
     padding-left: 24px;
     padding-right: 24px;
+    padding-top: 20px;
 }
 
 .paragraph-list {
