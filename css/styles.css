@@ -111,6 +111,7 @@ color: var(--accent-color);
 
 .header {
     background-color: var(--main-color-white);
+    border-bottom: 1px solid #ECECEC;
 }
 
 /* Геометрія хедера */
@@ -143,7 +144,6 @@ color: var(--accent-color);
 .main-nav {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
 }
 
 
@@ -281,6 +281,8 @@ color: var(--accent-color);
 .card-thumb {
     padding-top: 30px;
     padding-bottom: 30px;
+
+    background-color: var(--main-color-white);
 }
 
 .team-title {
