@@ -58,6 +58,20 @@ img {
     margin-right: auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* Оформлення хедера */
 
 .logo-color { 
@@ -159,6 +173,8 @@ color: var(--accent-color);
 .hero {
     background-color: #2F303A;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;  
 }
 
 .hero-title {
@@ -196,10 +212,6 @@ color: var(--accent-color);
 }
 
 /* Оформлення секції features */
-
-.features .section-title {
-    display: none;
-}
 
 .features .list {
     display: flex;
@@ -364,10 +376,6 @@ color: var(--accent-color);
 
 
 /* Оформлення portfolio-main */
-
-.primery-title {
-    display: none;
-}
 
 /* Оформлення списку кнопок */
 
